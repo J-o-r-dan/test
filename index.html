@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Your Name</title>
+<meta name="description" content="About Your Name: who I am, what I've shipped, and how to reach me.">
+<style>
+  :root { --bg:#fff; --fg:#1a1a1a; --muted:#5f6368; --accent:#2f5bea; --card:#f5f6f8; --border:#e1e4e8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111317; --fg:#eceef1; --muted:#9aa0a6; --accent:#7c9cff; --card:#1b1e24; --border:#2c3038; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:44rem; margin:0 auto; padding:3rem 1.25rem 4rem; }
+  header { margin-bottom:2.5rem; }
+  h1 { font-size:2.25rem; margin:0 0 .25rem; line-height:1.2; }
+  .tagline { color:var(--muted); margin:0; }
+  nav { margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap; }
+  a { color:var(--accent); }
+  section { margin-top:2.5rem; }
+  h2 { font-size:1.4rem; border-bottom:1px solid var(--border); padding-bottom:.4rem; }
+  .projects { list-style:none; padding:0; display:grid; gap:1rem; }
+  .projects li { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:1rem 1.1rem; }
+  .projects h3 { margin:0 0 .25rem; font-size:1.05rem; }
+  .projects p { margin:0; color:var(--muted); }
+  .todo { background:#fff3bf; color:#5c4500; padding:0 .25em; border-radius:3px; }
+  footer { margin-top:3rem; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Your Name</h1>
+    <p class="tagline">Your one-line role or tagline.</p>
+    <nav aria-label="Page sections">
+      <a href="#who">Who I am</a>
+      <a href="#shipped">What I've shipped</a>
+      <a href="#contact">How to reach me</a>
+    </nav>
+  </header>
+
+  <section id="who" aria-labelledby="who-h">
+    <h2 id="who-h">Who I am</h2>
+    <p><span class="todo">TODO</span> Write a short introduction: who you are, where you're based, and what you care about.</p>
+    <p><span class="todo">TODO</span> Add a sentence or two of background — experience, interests, what you're working on now.</p>
+  </section>
+
+  <section id="shipped" aria-labelledby="shipped-h">
+    <h2 id="shipped-h">What I've shipped</h2>
+    <ul class="projects">
+      <li>
+        <h3><a href="#"><span class="todo">TODO</span> Project name</a></h3>
+        <p>One sentence on what it is, who it's for, and your role.</p>
+      </li>
+      <li>
+        <h3><a href="#"><span class="todo">TODO</span> Project name</a></h3>
+        <p>One sentence on what it is, who it's for, and your role.</p>
+      </li>
+      <li>
+        <h3><a href="#"><span class="todo">TODO</span> Project name</a></h3>
+        <p>One sentence on what it is, who it's for, and your role.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">How to reach me</h2>
+    <ul>
+      <li>Email: <span class="todo">TODO</span> you@example.com</li>
+      <li>Social / code: <span class="todo">TODO</span> add profile links</li>
+    </ul>
+  </section>
+
+  <footer>Replace every highlighted <span class="todo">TODO</span> with your own details.</footer>
+</main>
+</body>
+</html>
